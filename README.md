@@ -46,3 +46,12 @@ python3 00-simple-cli-query-roman-cookbook/query.py
 
 ### Notes:
 This simple example isn't doesn't have very high accuracy, but it does work. I will work on improving this in the next examples.
+
+
+## Example 3 - Chat with a Document
+Make sure you have your OpenAI key in the key.txt 
+
+```
+source .venv/bin/activate
+py 30-langchain-chat-with-doc/app.py 
+```

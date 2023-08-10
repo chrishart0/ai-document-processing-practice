@@ -151,6 +151,9 @@ embedding = OpenAIEmbeddings()
 ### PDF
 # persist_directory = 'docs/chroma/chat'
 
+# To use this code you should go download the lambda docs pdf
+# https://docs.aws.amazon.com/pdfs/lambda/latest/dg/lambda-dg.pdf
+
 # # If vectorDB hasn't been created, create it. Else, load it in
 # if not os.path.exists(persist_directory) and not os.path.isdir(persist_directory):
 #     print("Creating vector database")
