@@ -1,0 +1,16 @@
+llama_index
+openai
+pypdf
+yt_dlp
+pydub
+chromadb  #==0.3.29 # Had to peg the version because Langchain doesn't support API for 0.4.0 and newer
+lark
+panel
+param
+langchain
+langchain[docarray]
+unstructured #Needed for any of the langchain unstructred loadres
+pandoc
+
+ebooklib # Used for converting epub files to markdown because Langchain handles markdown bettern than epub
+html2text # Used for converting epub files to markdown because Langchain handles markdown bettern than epub
